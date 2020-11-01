@@ -1,0 +1,11 @@
+@import "../../commons/index.scss";
+  
+.header {
+    &__main-title {
+      text-align: center;
+      font-family: 'Montserrat';
+      font-size: 82px;
+      color: $light-strawberry;
+      margin: 50px 0;
+    }
+}

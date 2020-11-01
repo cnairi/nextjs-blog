@@ -1,0 +1,133 @@
+{
+    "recipes": [
+        {
+            "name": "Chili son carne",
+            "quantity": "4 people",
+            "duration": "20 min",
+            "text": "",
+            "ingredients": [
+                {
+                    "name": "Maïzena",
+                    "quantity": "87.5 grammes"
+                }
+            ],
+            "instructions": [
+                {"text": "First, mix all the dry ingredient together"}
+            ],
+            "source": "Alice Esmeralda - Vegan book",
+            "images": [
+                {"src": "/images/home/web_4.jpg"}
+            ]
+        },
+        {
+            "name": "Apple pie",
+            "quantity": "1 big pie or 8 small ones",
+            "duration": "30 min cooking, 50 min in the hoven",
+            "text": "",
+            "ingredients": [
+                {
+                    "name": "Maïzena",
+                    "quantity": "87.5 grammes"
+                }
+            ],
+            "instructions": [
+                {"text": "First, mix all the dry ingredient together"}
+            ],
+            "source": "",
+            "images": [
+                {"src": "/images/home/web_5.jpg"}
+            ]
+        },
+        {
+            "name": "Vegan and gluten free pancakes",
+            "quantity": "2 people - 10 pieces",
+            "duration": "10min for the batter, 10 for baking",
+            "text": "",
+            "ingredients": [
+                {
+                    "name": "Maïzena",
+                    "quantity": "87.5 grammes"
+                },
+                {
+                    "name": "Einkorn flour",
+                    "quantity": "87.5 grammes"
+                },
+                {
+                    "name": "Baking powder",
+                    "quantity": "1 sachet"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": "1 pinch"
+                },
+                {
+                    "name": "Applesauce",
+                    "quantity": "100 grammes"
+                },
+                {
+                    "name": "Soy milk",
+                    "quantity": "200 mL"
+                },
+                {
+                    "name": "Agave syrup",
+                    "quantity": "10 grammes"
+                },
+                {
+                    "name": "Vanilla flavor",
+                    "quantity": "10 grammes"
+                }
+            ],
+            "instructions": [
+                {"text": "First, mix all the dry ingredient together"},
+                {"text": "Then, you have to do the same for the applesauce and th milk"},
+                {"text": "Finally, put the lattest mix into the first one, add the agave syrup and the vanilla flavor"},
+                {"text": "Heat a crepe pan with a little oil, drop off some batter, and turn the pancake over when it makes bubbles"}
+            ],
+            "source": "https://youmiam.com/fr/recipe/9557/les-meilleurs-pancakes-vegans/show",
+            "images": [
+                {"src": "/images/home/web_6.jpg"},
+                {"src": "/images/recipes/pancakes"},
+                {"src": "/images/recipes/pancakes-2"},
+                {"src": "/images/recipes/pancakes-3"}
+            ]
+        },
+        {
+            "name": "Almond, vanilla and coconut layer cake",
+            "quantity": "1 giant cake, fits from 8 to 12 people",
+            "duration": "2 hours",
+            "text": "",
+            "ingredients": [
+                {
+                    "name": "Maïzena",
+                    "quantity": "87.5 grammes"
+                }
+            ],
+            "instructions": [
+                {"text": "First, mix all the dry ingredient together"}
+            ],
+            "source": "",
+            "images": [
+                {"src": "/images/home/web_7.jpg"}
+            ]
+        },
+        {
+            "name": "Easy taboulé and Pissaladière",
+            "quantity": "4 people",
+            "duration": "4 hours",
+            "text": "",
+            "ingredients": [
+                {
+                    "name": "Maïzena",
+                    "quantity": "87.5 grammes"
+                }
+            ],
+            "instructions": [
+                {"text": "First, mix all the dry ingredient together"}
+            ],
+            "source": "",
+            "images": [
+                {"src": "/images/home/web_8.jpg"}
+            ]
+        }
+    ]
+}

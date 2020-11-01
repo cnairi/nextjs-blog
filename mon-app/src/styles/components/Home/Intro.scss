@@ -1,0 +1,189 @@
+@import "../../commons/index.scss";
+
+$tablet-breakpoint: 1024px;
+
+.test {
+    height: 0;
+    overflow: hidden;
+    padding-top: 546px / 410px * 100%;
+    // background: white;
+    position: relative;
+}
+
+.new {
+    // top: 50%;
+    // transform: translate(-5%, 45%);
+    position: absolute !important;
+    bottom: 0;
+    left: -5%;
+    width: 100%;
+    @media screen and (max-width: $tablet-breakpoint) {
+        position: static !important;
+    }
+}
+
+.newtest {
+    top: -35%;
+}
+
+.intro {
+    &__container {
+        width: 100%;
+        @media screen and (max-width: $tablet-breakpoint) {
+           height: auto !important;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+        @media screen and (max-width: $tablet-breakpoint) {
+            flex-direction: column;
+            height: auto;
+        }
+    }
+
+    &__title {
+        text-align: right;
+    }
+
+    &__left-column {
+        width: 30%;
+        position: relative;
+        opacity: 0;
+        transform: translateY(-100px);
+
+        &.visible {
+            opacity: 1;
+            transition: all 1s;
+            transform: translateY(0);
+        }
+
+        @media screen and (max-width: $tablet-breakpoint) {
+            width: 100%;
+            z-index: 10;
+        }
+
+        // &-img-container {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 5%;
+
+        //     @media screen and (max-width: $tablet-breakpoint) {
+        //         position: relative;
+        //         left: 0;
+        //     }
+
+        //     img {
+        //         width: 100%;
+        //         height: auto;
+        //     }
+        // }
+
+        &-txt-container {
+            position: absolute;
+            bottom: 0;
+            width: calc(95% - 20px);
+
+            @media screen and (max-width: $tablet-breakpoint) {
+                width: auto;
+                padding: 30px 20px 30px 150px;
+                right: 0;
+                bottom: -50%;
+                transform: translateY(-50%);
+                background-color: rgba(255,255,255, 0.6);
+            }
+
+            p {
+                display: block;
+                font-family: 'Montserrat Light';
+                font-size: 22px;
+                font-style: italic;
+                font-weight: lighter;
+                color: $dark-grey;
+                text-align: right;
+            }
+        }
+    }
+    
+    &__middle-column {
+        position: absolute;
+        width: 30%;
+        left: 50%;
+        top: 10%;
+        z-index: 12;
+        opacity: 0;
+        transform: rotate(90deg);
+
+        @media screen and (max-width: $tablet-breakpoint) {
+            left: 40%;
+            top: 50%;
+            width: 45%;
+            transform: translate(-50%, -40%) rotate(180deg);
+        }
+
+        &.visible {
+            opacity: 1;
+            // transition: all 3s;
+            -webkit-animation: spin 1s 1 linear;
+            /* transform: rotate(3deg); */
+             /* transform: rotate(0.3rad);/ */
+             /* transform: rotate(3grad); */ 
+             /* transform: rotate(.03turn);  */
+          }
+          
+          @keyframes spin {
+              from {
+                  transform:rotate(0deg);
+              }
+              to {
+                  transform:rotate(90deg);
+              }
+          }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__right-column {
+        width: 35%;
+        position: relative;
+        opacity: 0;
+        transform: translateY(100px);
+
+        @media screen and (max-width: $tablet-breakpoint) {
+            width: 100%;
+        }
+
+        &.visible {
+            opacity: 1;
+            transition: all 1s;
+            transform: translateY(0);
+        }
+
+        .test {
+            padding-top: 1136px / 852px * 100%;
+        }
+
+        // &-img-container {
+        //     display: flex;
+        //     position: absolute;
+        //     bottom: 0;
+        //     left: -5%;
+
+        //     @media screen and (max-width: $tablet-breakpoint) {
+        //         position: relative;
+        //         left: 0;
+        //     }
+
+        //     img {
+        //         width: 100%;
+        //         height: auto;
+        //     }
+        // }
+    }
+}

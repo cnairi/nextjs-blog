@@ -1,0 +1,14 @@
+@import "colors";
+@import "fonts";
+
+body {
+    max-width: 1366px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Montserrat Light';
+    font-size: 52px;
+    font-weight: lighter;
+    color: $sweet-orange;
+}

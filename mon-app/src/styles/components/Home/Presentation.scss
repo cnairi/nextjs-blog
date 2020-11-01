@@ -1,0 +1,22 @@
+@import "../../commons/index.scss";
+
+.presentation {
+    &__container {
+        margin: auto;
+        margin-top: 70px;
+        width: 65%;
+        border: 5px dotted rgba(223, 102, 106, 0.3);
+        padding: 20px 50px;
+    }
+    &__text {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: 30px;
+        
+        &-highlight {
+            color: $light-strawberry;
+            font-weight: bold;
+        }
+    }
+}
